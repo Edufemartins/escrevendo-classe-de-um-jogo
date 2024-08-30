@@ -1,8 +1,8 @@
 class heroi{
-    constructor(nomeTipo, nomeAtaque){
-        this.nomeTipo = nomeTipo
-        this.nomeAtaque = nomeAtaque
-    }
+  constructor(nomeTipo, nomeAtaque){
+      this.nomeTipo = nomeTipo
+      this.nomeAtaque = nomeAtaque
+  }
 }
 
 
@@ -11,20 +11,13 @@ const guerreiro = new heroi(["Mago", "Guerreiro", "Monge", "Ninja"], ["Magia", "
 
 for (let i = 0; i <= 3; i++){
 
-  console.log("O " + guerreiro.nomeTipo[i] + " atacou usando " + guerreiro.nomeAtaque[i]);
-  
+console.log("O " + guerreiro.nomeTipo[i] + " atacou usando " + guerreiro.nomeAtaque[i]);
+
 }
 
 
 
-//console.log(guerreiro.nomeAtaque);
-
-  
-
-
-
-
-
+//console.log("O " + guerreiro.nomeTipo[i] + " atacou usando " + guerreiro.nomeAtaque[i]);
 
 // console.log(`O "this.nomeHeroi" ) atacou usando "thisAtaque"`)
 
